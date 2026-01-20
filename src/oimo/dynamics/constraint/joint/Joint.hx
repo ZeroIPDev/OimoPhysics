@@ -300,12 +300,12 @@ class Joint {
 			error = 0;
 		} else if (lower == upper) {
 			// locked
-			minImp = MathUtil.NEGATIVE_INFINITY;
-			maxImp = MathUtil.POSITIVE_INFINITY;
+			minImp = Math.NEGATIVE_INFINITY;
+			maxImp = Math.POSITIVE_INFINITY;
 			error = diff - lower;
 		} else if (diff < lower) {
 			// at lower limit
-			minImp = MathUtil.NEGATIVE_INFINITY;
+			minImp = Math.NEGATIVE_INFINITY;
 			maxImp = 0;
 			error = diff - lower + slop;
 			if (error > 0) {
@@ -314,7 +314,7 @@ class Joint {
 		} else if (diff > upper) {
 			// at upper limit
 			minImp = 0;
-			maxImp = MathUtil.POSITIVE_INFINITY;
+			maxImp = Math.POSITIVE_INFINITY;
 			error = diff - upper - slop;
 			if (error < 0) {
 				error = 0;
@@ -381,12 +381,12 @@ class Joint {
 			error = 0;
 		} else if (lower == upper) {
 			// locked
-			minImp = MathUtil.NEGATIVE_INFINITY;
-			maxImp = MathUtil.POSITIVE_INFINITY;
+			minImp = Math.NEGATIVE_INFINITY;
+			maxImp = Math.POSITIVE_INFINITY;
 			error = diff - lower;
 		} else if (diff < lower) {
 			// at lower limit
-			minImp = MathUtil.NEGATIVE_INFINITY;
+			minImp = Math.NEGATIVE_INFINITY;
 			maxImp = 0;
 			error = diff - lower + slop;
 			if (error > 0) {
@@ -395,7 +395,7 @@ class Joint {
 		} else if (diff > upper) {
 			// at upper limit
 			minImp = 0;
-			maxImp = MathUtil.POSITIVE_INFINITY;
+			maxImp = Math.POSITIVE_INFINITY;
 			error = diff - upper - slop;
 			if (error < 0) {
 				error = 0;

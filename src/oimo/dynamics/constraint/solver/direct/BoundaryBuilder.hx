@@ -31,8 +31,8 @@ class BoundaryBuilder {
 		}
 
 		var row:JointSolverInfoRow = info.rows[i];
-		var lowerLimitEnabled:Bool = row.minImpulse > MathUtil.NEGATIVE_INFINITY;
-		var upperLimitEnabled:Bool = row.maxImpulse < MathUtil.POSITIVE_INFINITY;
+		var lowerLimitEnabled:Bool = row.minImpulse > Math.NEGATIVE_INFINITY;
+		var upperLimitEnabled:Bool = row.maxImpulse < Math.POSITIVE_INFINITY;
 
 		var disabled:Bool = row.minImpulse == 0 && row.maxImpulse == 0;
 

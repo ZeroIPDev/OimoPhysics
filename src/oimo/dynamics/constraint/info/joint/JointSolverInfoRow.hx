@@ -58,8 +58,8 @@ class JointSolverInfoRow {
 	extern public inline function equalLimit(rhs:Float, cfm:Float):Void {
 		this.rhs = rhs;
 		this.cfm = cfm;
-		minImpulse = MathUtil.NEGATIVE_INFINITY;
-		maxImpulse = MathUtil.POSITIVE_INFINITY;
+		minImpulse = Math.NEGATIVE_INFINITY;
+		maxImpulse = Math.POSITIVE_INFINITY;
 	}
 
 	extern public inline function motor(speed:Float, maxImpulse:Float):Void {

@@ -133,7 +133,7 @@ class BoxBoxDetector extends Detector {
 		var projC12:Float;
 		var projC12Abs:Float;
 
-		var mDepth:Float = MathUtil.POSITIVE_INFINITY;
+		var mDepth:Float = Math.POSITIVE_INFINITY;
 		var mId:Int = -1;
 		var mSign:Int = 0;
 		var mAxis:IVec3;
@@ -662,10 +662,10 @@ private class FaceClipper {
 			return;
 
 		// TODO: maximize area
-		var max1:Float = MathUtil.NEGATIVE_INFINITY;
-		var min1:Float = MathUtil.POSITIVE_INFINITY;
-		var max2:Float = MathUtil.NEGATIVE_INFINITY;
-		var min2:Float = MathUtil.POSITIVE_INFINITY;
+		var max1:Float = Math.NEGATIVE_INFINITY;
+		var min1:Float = Math.POSITIVE_INFINITY;
+		var max2:Float = Math.NEGATIVE_INFINITY;
+		var min2:Float = Math.POSITIVE_INFINITY;
 		var max1V:IncidentVertex = null;
 		var min1V:IncidentVertex = null;
 		var max2V:IncidentVertex = null;
