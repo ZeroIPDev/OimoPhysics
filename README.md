@@ -1,7 +1,7 @@
 OimoPhysics 1.2.5
 ---
 
-A lightweight 3D physics engine.
+A lightweight 3D physics engine. This is a fork intended to work with native platform targets.
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg) [![npm version](https://badge.fury.io/js/oimophysics.svg)](https://badge.fury.io/js/oimophysics)
 
