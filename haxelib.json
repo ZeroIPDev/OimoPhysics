@@ -1,0 +1,11 @@
+{
+  "name": "oimophysics",
+  "url" : "https://github.com/saharan/OimoPhysics",
+  "license": "MIT",
+  "tags": ["physics-engine", "physics-3d"],
+  "description": " A cross-platform 3D physics engine.",
+  "version": "1.2.4",
+  "releasenote": "bugfix: error on shape removing, the version in package.json was not correct",
+  "contributors": ["saharan"],
+  "classPath": "src"
+}
