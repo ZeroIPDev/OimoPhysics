@@ -10,6 +10,7 @@ import oimo.m.M;
 /**
  * A contact manifold holds collision data of a pair of shapes.
  */
+@:haxe.warning("-WDeprecated")
 @:build(oimo.m.B.bu())
 class Manifold {
 	public var _normal:IVec3;

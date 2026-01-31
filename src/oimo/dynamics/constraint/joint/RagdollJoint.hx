@@ -25,6 +25,7 @@ import oimo.dynamics.constraint.info.joint.JointSolverInfoRow;
  * motor of the twist part of the constraint, spring and damper effect of
  * the both swing and twist part of the constraint.
  */
+@:haxe.warning("-WDeprecated")
 @:build(oimo.m.B.bu())
 class RagdollJoint extends Joint {
 	public var _twistSd:SpringDamper;

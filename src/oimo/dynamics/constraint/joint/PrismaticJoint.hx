@@ -18,6 +18,7 @@ import oimo.dynamics.constraint.info.joint.JointSolverInfoRow;
  * freedom. You can enable lower and upper limits, a motor, a spring and
  * damper effect of the translational part of the constraint.
  */
+@:haxe.warning("-WDeprecated")
 @:build(oimo.m.B.bu())
 class PrismaticJoint extends Joint {
 	public var _sd:SpringDamper;

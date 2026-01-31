@@ -7,6 +7,7 @@ import oimo.dynamics.constraint.contact.ContactImpulse;
  * Internal class.
  */
 @:dox(hide)
+@:haxe.warning("-WDeprecated")
 @:build(oimo.m.B.bu())
 class ContactImpulse {
 	// normal impulse

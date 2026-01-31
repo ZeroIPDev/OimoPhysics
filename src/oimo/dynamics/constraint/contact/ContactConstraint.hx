@@ -18,6 +18,7 @@ import oimo.m.M;
  * This holds a contact manifold, which has some contact points, contact normals, and
  * contact impulses. See `Manifold` for more information.
  */
+@:haxe.warning("-WDeprecated")
 @:build(oimo.m.B.bu())
 class ContactConstraint {
 	public var _positionCorrectionAlgorithm:Int;

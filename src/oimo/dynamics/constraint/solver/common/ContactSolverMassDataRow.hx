@@ -6,6 +6,7 @@ import oimo.m.M;
  * Internal class.
  */
 @:dox(hide)
+@:haxe.warning("-WDeprecated")
 @:build(oimo.m.B.bu())
 class ContactSolverMassDataRow {
 	// normal impulse -> linear/angular velocity change

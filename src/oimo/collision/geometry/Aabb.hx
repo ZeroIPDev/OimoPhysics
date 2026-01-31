@@ -7,6 +7,7 @@ import oimo.collision.raycast.*;
 /**
  * The axis-aligned bounding box.
  */
+@:haxe.warning("-WDeprecated")
 @:build(oimo.m.B.bu())
 class Aabb {
 	public var _min:IVec3;

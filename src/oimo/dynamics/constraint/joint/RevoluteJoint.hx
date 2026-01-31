@@ -17,6 +17,7 @@ import oimo.dynamics.constraint.info.joint.JointSolverInfoRow;
  * lower and upper limits, a motor, a spring and damper effect of the rotational
  * part of the constraint.
  */
+@:haxe.warning("-WDeprecated")
 @:build(oimo.m.B.bu())
 class RevoluteJoint extends Joint {
 	public var _sd:SpringDamper;

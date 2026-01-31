@@ -10,6 +10,7 @@ import oimo.m.M;
 /**
  * Simulation island.
  */
+@:haxe.warning("-WDeprecated")
 @:build(oimo.m.B.bu())
 @:dox(hide)
 class Island {

@@ -8,6 +8,7 @@ import oimo.m.M;
  * Users of the collision part of the library can move an axis-aligned bounding box of
  * a proxy through `BroadPhase` class.
  */
+@:haxe.warning("-WDeprecated")
 @:build(oimo.m.B.bu())
 class Proxy {
 	public var _prev:Proxy;

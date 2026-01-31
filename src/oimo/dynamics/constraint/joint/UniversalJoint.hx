@@ -16,6 +16,7 @@ import oimo.dynamics.constraint.info.joint.JointSolverInfoRow;
  * of freedom. You can enable lower and upper limits, motors, spring and damper effects
  * of the two rotational constraints.
  */
+@:haxe.warning("-WDeprecated")
 @:build(oimo.m.B.bu())
 class UniversalJoint extends Joint {
 	public var _sd1:SpringDamper;

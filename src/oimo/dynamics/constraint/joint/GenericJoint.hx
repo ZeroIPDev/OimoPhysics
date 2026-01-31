@@ -18,6 +18,7 @@ import oimo.dynamics.constraint.info.joint.JointSolverInfoRow;
  * joints. Note that rotation angles are measured as x-y-z Euler angles,
  * not as z-x-z Euler angles.
  */
+@:haxe.warning("-WDeprecated")
 @:build(oimo.m.B.bu())
 class GenericJoint extends Joint {
 	public var _translSds:Vector<SpringDamper>;

@@ -11,6 +11,7 @@ import oimo.common.Vec3;
  * Transform class provides a set of translation and rotation.
  */
 #if !macro
+@:haxe.warning("-WDeprecated")
 @:build(oimo.m.B.bu())
 #end
 class Transform {

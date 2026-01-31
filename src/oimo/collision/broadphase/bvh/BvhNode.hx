@@ -8,6 +8,7 @@ import oimo.m.M;
  *
  * BVH Node
  */
+@:haxe.warning("-WDeprecated")
 @:build(oimo.m.B.bu())
 @:dox(hide)
 class BvhNode {

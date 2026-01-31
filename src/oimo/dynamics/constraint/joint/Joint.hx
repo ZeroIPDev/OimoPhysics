@@ -17,6 +17,7 @@ import oimo.m.M;
  * The base class of joints. Joints are used to connect two rigid bodies
  * in various ways. See `JointType` for all types of joints.
  */
+@:haxe.warning("-WDeprecated")
 @:build(oimo.m.B.bu())
 class Joint {
 	public var _b1:RigidBody;

@@ -10,6 +10,7 @@ import oimo.common.Transform;
  * A manifold point is a contact point in a contact manifold. This holds detailed collision
  * data (position, overlap depth, impulse, etc...) for collision response.
  */
+@:haxe.warning("-WDeprecated")
 @:build(oimo.m.B.bu())
 class ManifoldPoint {
 	// manifold point relative to rigid bodies. NOT SHAPES.

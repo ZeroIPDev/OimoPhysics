@@ -9,6 +9,7 @@ import oimo.collision.raycast.*;
 /**
  * Abstract collision geometry.
  */
+@:haxe.warning("-WDeprecated")
 @:build(oimo.m.B.bu())
 class Geometry {
 	public var _type:Int;

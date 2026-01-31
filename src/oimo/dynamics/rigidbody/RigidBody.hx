@@ -17,6 +17,7 @@ import oimo.m.M;
  * three motion types: dynamic, static, and kinematic. See `RigidBodyType` for
  * details of motion types.
  */
+@:haxe.warning("-WDeprecated")
 @:build(oimo.m.B.bu())
 class RigidBody {
 	public var _next:RigidBody;

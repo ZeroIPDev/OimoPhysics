@@ -9,6 +9,7 @@ import oimo.m.M;
 /**
  * A box collision geometry.
  */
+@:haxe.warning("-WDeprecated")
 @:build(oimo.m.B.bu())
 class BoxGeometry extends ConvexGeometry {
 	public var _halfExtents:IVec3;

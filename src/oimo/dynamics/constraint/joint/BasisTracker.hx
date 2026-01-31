@@ -7,6 +7,7 @@ import oimo.m.M;
 /**
  * Internal class
  */
+@:haxe.warning("-WDeprecated")
 @:build(oimo.m.B.bu())
 @:dox(hide)
 class BasisTracker {

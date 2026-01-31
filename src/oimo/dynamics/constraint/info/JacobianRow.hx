@@ -6,6 +6,7 @@ import oimo.m.M;
  * The row of a Jacobian matrix.
  */
 @:dox(hide)
+@:haxe.warning("-WDeprecated")
 @:build(oimo.m.B.bu())
 class JacobianRow {
 	public var lin1:IVec3;
